@@ -1,4 +1,4 @@
-# PALMONA GROUP HR ANALYSIS
+# PALMORA GROUP HR ANALYSIS
 This is where i started my Portfolio Building while taking my Data Analysis class with the Incubator.
 
 ## Project Topic: Palmora Group HR Analysis
@@ -56,3 +56,6 @@ RETURN DIVIDE(MaleSalary-FemaleSalary,MaleSalary)
 SalaryBand = VAR BandStart =INT('Palmoria Group emp-data'[Salary]/10000) * 10000 VAR BandEnd
 = BandStart + 10000 RETURN "$" & FORMAT(BandStart,"#,0") & "-$" & FORMAT(BandEnd,"#,0")
 ```
+
+### Results
+
