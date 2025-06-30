@@ -17,7 +17,7 @@ The primary source of Data used here is Palmora Data Sale.csv and this is gotten
   - For Visualization
 
 ### Data Cleaning and Preparation
-In the initial phase of the Data cleaning and prepartion,we perform the following actions;
+In the initial phase of the Data cleaning and prepartion.I perform the following actions;
 1. Data loading and Inspection
 2. Handling missing variables
 3. Data cleaning and formating
