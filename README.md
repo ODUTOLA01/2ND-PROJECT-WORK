@@ -11,3 +11,7 @@ The primary source of Data used here is Palmora Data Sale.csv and this is gotten
 
 ### Data Tools
 - Ms Excel for Data Collection [Download Here](https://www.microsoft.com)
+- Power BI [Download Here](
+ - For Data Cleaning
+ - For Creating a report
+ - For Visualization
