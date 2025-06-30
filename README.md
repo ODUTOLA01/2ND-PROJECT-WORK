@@ -1,4 +1,4 @@
-# 2ND-PROJECT-WORK
+# PALMONA GROUP HR ANALYSIS
 This is where i started my Portfolio Building while taking my Data Analysis class with the Incubator.
 
 ## Project Topic: Palmora Group HR Analysis
