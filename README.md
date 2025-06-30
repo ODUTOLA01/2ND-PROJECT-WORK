@@ -30,5 +30,10 @@ EDA involves the exploring of the Data to answer some questions about the Data s
 - Salary band compliance with regulatory thresholds
 - Bonus allocation based on employee ratings
 
+### Data Analysis
+
+This where i include some lines of code and the DAX expression i used during my analysis
+``` POWER BI/DAX EXPRESSION
+
 
 
