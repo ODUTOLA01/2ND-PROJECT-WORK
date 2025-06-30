@@ -9,9 +9,26 @@ This project showcases a comprehensive HR analytics solution developed in Power 
 ### Data Sources
 The primary source of Data used here is Palmora Data Sale.csv and this is gotten from the company CHRO,.
 
-### Data Tools
+### Tools Used
 - Ms Excel for Data Collection [Download Here](https://www.microsoft.com)
-- Power BI [Download Here](
- - For Data Cleaning
- - For Creating a report
- - For Visualization
+- Power BI [Download Here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+  - For Data Cleaning
+  - For Creating a report
+  - For Visualization
+
+### Data Cleaning and Preparation
+In the initial phase of the Data cleaning and prepartion,we perform the following actions;
+1. Data loading and Inspection
+2. Handling missing variables
+3. Data cleaning and formating
+
+### Exploratory Data Analysis
+EDA involves the exploring of the Data to answer some questions about the Data such as;
+- Gender distribution across regions and departments
+- Performance ratings based on gender
+- Gender pay gap analysis
+- Salary band compliance with regulatory thresholds
+- Bonus allocation based on employee ratings
+
+
+
