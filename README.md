@@ -34,6 +34,25 @@ EDA involves the exploring of the Data to answer some questions about the Data s
 
 This where i include some lines of code and the DAX expression i used during my analysis
 ``` POWER BI/DAX EXPRESSION
-
-
-
+Average Rating = AVERAGE('Palmoria Group emp-data'[Rating])
+```
+```
+Average Salary = AVERAGE('Palmoria Group emp-data'[Salary])
+```
+```
+BelowMinimumPay = CALCULATE(COUNTROWS('Palmoria Group emp-data'),'Palmoria Group emp-data'[Salary] < 90000)
+```
+```
+Gender PayGap = VAR MaleSalary = CALCULATE(AVERAGE('Palmoria Group emp-data'[Salary]),'Palmoria Group emp-data'[Gender]
+= "Male")VAR FemaleSalary
+ = CALCULATE(AVERAGE('Palmoria Group emp-data'[Salary]),'Palmoria Group emp-data'[Gender] = "Female")
+RETURN DIVIDE(MaleSalary-FemaleSalary,MaleSalary)
+```
+```
+ PercentBelowMinimum = DIVIDE(CALCULATE(COUNTROWS('Palmoria Group emp-data'),'Palmoria Group emp-data'[Salary]
+ < 90000), COUNTROWS('Palmoria Group emp-data'), 0)
+```
+```
+SalaryBand = VAR BandStart =INT('Palmoria Group emp-data'[Salary]/10000) * 10000 VAR BandEnd
+= BandStart + 10000 RETURN "$" & FORMAT(BandStart,"#,0") & "-$" & FORMAT(BandEnd,"#,0")
+```
