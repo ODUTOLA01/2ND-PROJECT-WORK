@@ -41,7 +41,21 @@ EDA involves the exploring of the Data to answer some questions about the Data s
 - Performance ratings based on gender
 - Gender pay gap analysis
 - Salary band compliance with regulatory thresholds
-- Bonus allocation based on employee ratings
+- A recent regulation was adopted which requires manufacturing companies to pay
+employees a minimum of $90,000
+
+   a. Does Palmoria meet this requirement?
+
+   b. Show the pay distribution of employees grouped by a band of $10,000. For example:
+
+   c. How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000,
+etc.?
+- Calculate the amount to be paid as a bonus to individual employees
+
+   i. Calculate the total amount to be paid to individual employees (salary inclusive of
+bonus)
+
+  ii. Total amount to be paid out per region and company-wide
 
 ### Data Analysis
 
@@ -83,7 +97,7 @@ Also, there is a relatively balanced Male & Female distribution but 40% of indiv
   |Lagos|2.79%|Research and Developmemt,Services,Sales,Product Management|                      
   |Abuja|1.64%|Human Resources,Accounting,Services|
   |Kaduna|0.91|Business Development,Marketing,Legal|
-- The analysis shows that Total Count of employee earning below minimum pay is 567,which gives 68.07% of people earning below $90,000. Thereforw,Palmora does not meet this requirement.
+- The analysis shows that Total Count of employee earning below minimum pay is 567,which gives 68.07% of people earning below $90,000. Therefore,Palmora does not meet this requirement.
 - The SalaryBand by the Employee are as follow;
    |Salary Band|EmployeeCount|
    |-----------|-------------|
