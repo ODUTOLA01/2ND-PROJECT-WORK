@@ -58,4 +58,26 @@ SalaryBand = VAR BandStart =INT('Palmoria Group emp-data'[Salary]/10000) * 10000
 ```
 
 ### Results
+- There are more Male gender than Female gender in the 3 Regions(Kaduna,Abuja,Lagos).
+Also, there is a relatively balanced Male & Female distribution but 40% of individuals choose not to disclose there gender.
+- The Male gender has the Highest Rating(49.7%) than the Female gender(46.22%) and Undisclosed individuals(4.08%).
+- From the analysis,there is a gender PayGap in there locations/regions
+  |Region|PayGap|                     
+  |------|------|                     
+  |Lagos|2.79%|                       
+  |Abuja|1.64%|
+  |Kaduna|0.91
 
+|Region| |Departments|PayGap|
+|--------|---------|-----|
+   |Lagos|Research and development|15.08%|
+   |Lagos|Services|14.72%|
+   |Lagos|Sales|14.12%|
+   |Lagos|Product Management|12.51%|
+   |Lagos|Engineering|10.80%|
+   |Kaduna|Business Development|20.53%|
+   |Kaduna|Marketing|14.88%|
+   |Kaduna|Legal|10.57%|
+   |Abuja|Human Resources|28.08%|
+   |Abuja|Accounting|14.52%|
+   |Abuja|Service|12.60%|
