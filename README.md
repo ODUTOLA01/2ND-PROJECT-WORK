@@ -81,5 +81,9 @@ Also, there is a relatively balanced Male & Female distribution but 40% of indiv
    |$80,000|91|
    |$90,000|82|
    |$100000|89|
-  |$110,000|90| 
+  |$110,000|90|
+
+![4  PAY DISTRIBUTION BY REGION](https://github.com/user-attachments/assets/a5be04a5-3339-4c9f-ae1b-bae2afda5262)
+
+- 
 
