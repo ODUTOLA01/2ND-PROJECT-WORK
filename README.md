@@ -56,6 +56,9 @@ RETURN DIVIDE(MaleSalary-FemaleSalary,MaleSalary)
 SalaryBand = VAR BandStart =INT('Palmoria Group emp-data'[Salary]/10000) * 10000 VAR BandEnd
 = BandStart + 10000 RETURN "$" & FORMAT(BandStart,"#,0") & "-$" & FORMAT(BandEnd,"#,0")
 ```
+```
+Bonus Amount = 'BONUS RATE'[Salary] *'BONUS RATE'[Bonus Rate]
+```
 
 ### Results
 - There are more Male gender than Female gender in the 3 Regions(Kaduna,Abuja,Lagos).
@@ -81,9 +84,30 @@ Also, there is a relatively balanced Male & Female distribution but 40% of indiv
    |$80,000|91|
    |$90,000|82|
    |$100000|89|
-  |$110,000|90|
+   |$110,000|90|
 
-![4  PAY DISTRIBUTION BY REGION](https://github.com/user-attachments/assets/a5be04a5-3339-4c9f-ae1b-bae2afda5262)
+![4  PAY DISTRIBUTION BY REGION](https://github.com/user-attachments/assets/2ae1d687-d0cd-49fe-acc9-1ccd5b10d46e)
 
-- 
+- The total bonus paid out per regions is $161.96M
 
+### Visualizations
+
+![1  GENDER DISTRIBUTION](https://github.com/user-attachments/assets/dba0d66f-e464-4611-8529-6e6389aa9f49)
+
+![2  RATING BASED ON GENDER](https://github.com/user-attachments/assets/18961e73-2633-4f28-9072-8c5efbb6e636)
+
+![3b  PAYGAP BY REGION   DEPARTMENT](https://github.com/user-attachments/assets/5baccbf5-42d0-4286-aecc-84aeb73091ea)
+![3c  GENDER PAYGAP](https://github.com/user-attachments/assets/94c4fe83-d47a-4f05-abc3-4600f20998f8)
+
+![5 RATING BONUS](https://github.com/user-attachments/assets/4cf6b452-5410-403e-a791-54a33c391968)
+![5b chart](https://github.com/user-attachments/assets/53faeae4-6273-4a1f-8491-ce491ea9d586)
+
+### Recommendations
+Based on the analysis,i recommend the following actions;
+ - Top performance should recieve more noticeable rewards"Excellent" than  "very good","good" or "average". There is need for unified performance appraisal training.
+ - There need to balanced up the paygap amount genders and the department affected.
+ - There need for Bonus Automation which is the use of Business Intelligent( That is, implementing power BI Dashboard to automate bonus calculation and reporting,thereby reducing manual errors and saving HR time.
+ - Strategically reallocation of bonus within the Regions to match performance with compensation to avoid being bais.
+
+### Limitations
+I had to remove Null values from the department and salary column and also replaced the empty column in the gender column with matching values like "Undisclosed" because they would have affected the accuracy of my calculation from the analysis. Also, duplicates values were removed to ensure accuracy.
