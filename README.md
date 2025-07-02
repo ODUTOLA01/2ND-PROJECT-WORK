@@ -3,6 +3,19 @@ This is where i started my Portfolio Building while taking my Data Analysis clas
 
 ## Project Topic: Palmora Group HR Analysis
 
+## Table Of Contents
+
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools Used](#tools-used)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Insights](#insights)
+- [Dashboards](#dashboards)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+  
 ### Project Overview
 This project showcases a comprehensive HR analytics solution developed in Power BI for Palmoria Group, a manufacturing company based in Nigeria, embroiled with issues over internal gender inequality in its 3 regions. By analysing  the company’s HR data we seek to gather enough insights to make reasonable decisions which then enable us to tell compelling stories around our data from the insight gotten and to uncover gender-related insights to support management's decisions.
 
@@ -60,7 +73,7 @@ SalaryBand = VAR BandStart =INT('Palmoria Group emp-data'[Salary]/10000) * 10000
 Bonus Amount = 'BONUS RATE'[Salary] *'BONUS RATE'[Bonus Rate]
 ```
 
-### Results
+### Insights
 - There are more Male gender than Female gender in the 3 Regions(Kaduna,Abuja,Lagos).
 Also, there is a relatively balanced Male & Female distribution but 40% of individuals choose not to disclose there gender.
 - The Male gender has the Highest Rating(49.7%) than the Female gender(46.22%) and Undisclosed individuals(4.08%).
@@ -90,7 +103,7 @@ Also, there is a relatively balanced Male & Female distribution but 40% of indiv
 
 - The total bonus paid out per regions is $161.96M
 
-### Visualizations
+### Dashboards
 
 ![1  GENDER DISTRIBUTION](https://github.com/user-attachments/assets/dba0d66f-e464-4611-8529-6e6389aa9f49)
 
