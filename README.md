@@ -61,23 +61,25 @@ SalaryBand = VAR BandStart =INT('Palmoria Group emp-data'[Salary]/10000) * 10000
 - There are more Male gender than Female gender in the 3 Regions(Kaduna,Abuja,Lagos).
 Also, there is a relatively balanced Male & Female distribution but 40% of individuals choose not to disclose there gender.
 - The Male gender has the Highest Rating(49.7%) than the Female gender(46.22%) and Undisclosed individuals(4.08%).
-- From the analysis,there is a gender PayGap in there locations/regions
-  |Region|PayGap|                     
-  |------|------|                     
-  |Lagos|2.79%|                       
-  |Abuja|1.64%|
-  |Kaduna|0.91
+- From the analysis,there is a gender PayGap in there Locations/Regions and Departments
+  |Region|PayGap|Department|                    
+  |------|------|----------|                    
+  |Lagos|2.79%|Research and Developmemt,Services,Sales,Product Management|                      
+  |Abuja|1.64%|Human Resources,Accounting,Services|
+  |Kaduna|0.91|Business Development,Marketing,Legal|
+- The analysis shows that Total Count of employee earning below minimum pay is 567,which gives 68.07% of people earning below $90,000. Thereforw,Palmora does not meet this requirement.
+- The SalaryBand by the Employee are as follow;
+   |Salary Band|EmployeeCount|
+   |-----------|-------------|
+   |$10,000|Zero|
+   |$20,000|21|
+   |$30,000|91|
+   |$40,000|89|
+   |$50,000|84|
+   |$60,000|87|
+   |$70,000|102|
+   |$80,000|91|
+   |$90,000|82|
+   |$100000|89|
+  |$110,000|90| 
 
-|Region| |Departments|PayGap|
-|--------|---------|-----|
-   |Lagos|Research and development|15.08%|
-   |Lagos|Services|14.72%|
-   |Lagos|Sales|14.12%|
-   |Lagos|Product Management|12.51%|
-   |Lagos|Engineering|10.80%|
-   |Kaduna|Business Development|20.53%|
-   |Kaduna|Marketing|14.88%|
-   |Kaduna|Legal|10.57%|
-   |Abuja|Human Resources|28.08%|
-   |Abuja|Accounting|14.52%|
-   |Abuja|Service|12.60%|
